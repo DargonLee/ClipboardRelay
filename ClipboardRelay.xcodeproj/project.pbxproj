@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18B147F0258B81C500BEE28B /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B147EF258B81C500BEE28B /* MainTableViewCell.swift */; };
+		18B147F7258B869400BEE28B /* ClipboardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B147F6258B869400BEE28B /* ClipboardData.swift */; };
+		18B147FF258B871000BEE28B /* ClipboardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B147FE258B871000BEE28B /* ClipboardItem.swift */; };
+		18BDE4A9255FE555000A0170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BDE4A8255FE555000A0170 /* AppDelegate.swift */; };
+		18BDE4AB255FE555000A0170 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BDE4AA255FE555000A0170 /* SceneDelegate.swift */; };
+		18BDE4AD255FE555000A0170 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BDE4AC255FE555000A0170 /* ViewController.swift */; };
+		18BDE4B0255FE555000A0170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BDE4AE255FE555000A0170 /* Main.storyboard */; };
+		18BDE4B3255FE555000A0170 /* ClipboardRelay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18BDE4B1255FE555000A0170 /* ClipboardRelay.xcdatamodeld */; };
+		18BDE4B5255FE557000A0170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BDE4B4255FE557000A0170 /* Assets.xcassets */; };
+		18BDE4B8255FE557000A0170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BDE4B6255FE557000A0170 /* LaunchScreen.storyboard */; };
+		18BDE4C3255FE558000A0170 /* ClipboardRelayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BDE4C2255FE558000A0170 /* ClipboardRelayTests.swift */; };
+		18FE3B1A256CB92C00659396 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE3B19256CB92C00659396 /* KeyboardViewController.swift */; };
+		18FE3B1E256CB92C00659396 /* CustomClipboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 18FE3B17256CB92C00659396 /* CustomClipboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		84A68AF9BA43918BE7C6D622 /* Pods_ClipboardRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C0017B006B237DEF42FDAD /* Pods_ClipboardRelay.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18BDE4BF255FE558000A0170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BDE49D255FE555000A0170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BDE4A4255FE555000A0170;
+			remoteInfo = ClipboardRelay;
+		};
+		18FE3B1C256CB92C00659396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BDE49D255FE555000A0170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FE3B16256CB92C00659396;
+			remoteInfo = CustomClipboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18FE3B22256CB92C00659396 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				18FE3B1E256CB92C00659396 /* CustomClipboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18B147EF258B81C500BEE28B /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		18B147F6258B869400BEE28B /* ClipboardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardData.swift; sourceTree = "<group>"; };
+		18B147FE258B871000BEE28B /* ClipboardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardItem.swift; sourceTree = "<group>"; };
+		18BDE4A5255FE555000A0170 /* ClipboardRelay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipboardRelay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BDE4A8255FE555000A0170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18BDE4AA255FE555000A0170 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18BDE4AC255FE555000A0170 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18BDE4AF255FE555000A0170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18BDE4B2255FE555000A0170 /* ClipboardRelay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClipboardRelay.xcdatamodel; sourceTree = "<group>"; };
+		18BDE4B4255FE557000A0170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18BDE4B7255FE557000A0170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18BDE4B9255FE557000A0170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BDE4BE255FE558000A0170 /* ClipboardRelayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipboardRelayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BDE4C2255FE558000A0170 /* ClipboardRelayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardRelayTests.swift; sourceTree = "<group>"; };
+		18BDE4C4255FE558000A0170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BDE4DE255FE56B000A0170 /* ClipboardRelay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClipboardRelay.entitlements; sourceTree = "<group>"; };
+		18FE3B17256CB92C00659396 /* CustomClipboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CustomClipboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FE3B19256CB92C00659396 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		18FE3B1B256CB92C00659396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38CB441FBCA0F7A92AD2A7A7 /* Pods-ClipboardRelay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClipboardRelay.debug.xcconfig"; path = "Target Support Files/Pods-ClipboardRelay/Pods-ClipboardRelay.debug.xcconfig"; sourceTree = "<group>"; };
+		D2390B5E2947041A66EA0A7C /* Pods-ClipboardRelay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClipboardRelay.release.xcconfig"; path = "Target Support Files/Pods-ClipboardRelay/Pods-ClipboardRelay.release.xcconfig"; sourceTree = "<group>"; };
+		D8C0017B006B237DEF42FDAD /* Pods_ClipboardRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClipboardRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BDE4A2255FE555000A0170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A68AF9BA43918BE7C6D622 /* Pods_ClipboardRelay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BDE4BB255FE558000A0170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE3B14256CB92C00659396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18891D822576577100DD8F16 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		18B147F4258B829C00BEE28B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18B147EF258B81C500BEE28B /* MainTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18B147F5258B82A200BEE28B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18B147F6258B869400BEE28B /* ClipboardData.swift */,
+				18B147FE258B871000BEE28B /* ClipboardItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18BDE49C255FE555000A0170 = {
+			isa = PBXGroup;
+			children = (
+				18BDE4A7255FE555000A0170 /* ClipboardRelay */,
+				18FE3B18256CB92C00659396 /* CustomClipboard */,
+				18BDE4C1255FE558000A0170 /* ClipboardRelayTests */,
+				18BDE4A6255FE555000A0170 /* Products */,
+				3676DFAF7E2683533BC51D34 /* Pods */,
+				C61C8E724685D270E956C53D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18BDE4A6255FE555000A0170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BDE4A5255FE555000A0170 /* ClipboardRelay.app */,
+				18BDE4BE255FE558000A0170 /* ClipboardRelayTests.xctest */,
+				18FE3B17256CB92C00659396 /* CustomClipboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18BDE4A7255FE555000A0170 /* ClipboardRelay */ = {
+			isa = PBXGroup;
+			children = (
+				18BDE4DE255FE56B000A0170 /* ClipboardRelay.entitlements */,
+				18BDE4A8255FE555000A0170 /* AppDelegate.swift */,
+				18BDE4AA255FE555000A0170 /* SceneDelegate.swift */,
+				18891D822576577100DD8F16 /* Core */,
+				18FE3B35256D2DE400659396 /* Main */,
+				18BDE4E6255FE5F8000A0170 /* Store */,
+				18BDE4E5255FE5D1000A0170 /* Supporting Files */,
+				18BDE4AE255FE555000A0170 /* Main.storyboard */,
+			);
+			path = ClipboardRelay;
+			sourceTree = "<group>";
+		};
+		18BDE4C1255FE558000A0170 /* ClipboardRelayTests */ = {
+			isa = PBXGroup;
+			children = (
+				18BDE4C2255FE558000A0170 /* ClipboardRelayTests.swift */,
+				18BDE4C4255FE558000A0170 /* Info.plist */,
+			);
+			path = ClipboardRelayTests;
+			sourceTree = "<group>";
+		};
+		18BDE4E5255FE5D1000A0170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18BDE4B4255FE557000A0170 /* Assets.xcassets */,
+				18BDE4B6255FE557000A0170 /* LaunchScreen.storyboard */,
+				18BDE4B9255FE557000A0170 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18BDE4E6255FE5F8000A0170 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				18BDE4B1255FE555000A0170 /* ClipboardRelay.xcdatamodeld */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		18FE3B18256CB92C00659396 /* CustomClipboard */ = {
+			isa = PBXGroup;
+			children = (
+				18FE3B19256CB92C00659396 /* KeyboardViewController.swift */,
+				18FE3B1B256CB92C00659396 /* Info.plist */,
+			);
+			path = CustomClipboard;
+			sourceTree = "<group>";
+		};
+		18FE3B35256D2DE400659396 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				18B147F5258B82A200BEE28B /* Models */,
+				18B147F4258B829C00BEE28B /* Views */,
+				18BDE4AC255FE555000A0170 /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3676DFAF7E2683533BC51D34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38CB441FBCA0F7A92AD2A7A7 /* Pods-ClipboardRelay.debug.xcconfig */,
+				D2390B5E2947041A66EA0A7C /* Pods-ClipboardRelay.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C61C8E724685D270E956C53D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8C0017B006B237DEF42FDAD /* Pods_ClipboardRelay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BDE4A4255FE555000A0170 /* ClipboardRelay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BDE4D2255FE558000A0170 /* Build configuration list for PBXNativeTarget "ClipboardRelay" */;
+			buildPhases = (
+				1448C638901622702F1B4742 /* [CP] Check Pods Manifest.lock */,
+				18BDE4A1255FE555000A0170 /* Sources */,
+				18BDE4A2255FE555000A0170 /* Frameworks */,
+				18BDE4A3255FE555000A0170 /* Resources */,
+				18FE3B22256CB92C00659396 /* Embed App Extensions */,
+				A5AA763183CD4A7904A3249D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FE3B1D256CB92C00659396 /* PBXTargetDependency */,
+			);
+			name = ClipboardRelay;
+			productName = ClipboardRelay;
+			productReference = 18BDE4A5255FE555000A0170 /* ClipboardRelay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18BDE4BD255FE558000A0170 /* ClipboardRelayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BDE4D5255FE558000A0170 /* Build configuration list for PBXNativeTarget "ClipboardRelayTests" */;
+			buildPhases = (
+				18BDE4BA255FE558000A0170 /* Sources */,
+				18BDE4BB255FE558000A0170 /* Frameworks */,
+				18BDE4BC255FE558000A0170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BDE4C0255FE558000A0170 /* PBXTargetDependency */,
+			);
+			name = ClipboardRelayTests;
+			productName = ClipboardRelayTests;
+			productReference = 18BDE4BE255FE558000A0170 /* ClipboardRelayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18FE3B16256CB92C00659396 /* CustomClipboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FE3B1F256CB92C00659396 /* Build configuration list for PBXNativeTarget "CustomClipboard" */;
+			buildPhases = (
+				18FE3B13256CB92C00659396 /* Sources */,
+				18FE3B14256CB92C00659396 /* Frameworks */,
+				18FE3B15256CB92C00659396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomClipboard;
+			productName = CustomClipboard;
+			productReference = 18FE3B17256CB92C00659396 /* CustomClipboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BDE49D255FE555000A0170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					18BDE4A4255FE555000A0170 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					18BDE4BD255FE558000A0170 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 18BDE4A4255FE555000A0170;
+					};
+					18FE3B16256CB92C00659396 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 18BDE4A0255FE555000A0170 /* Build configuration list for PBXProject "ClipboardRelay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18BDE49C255FE555000A0170;
+			productRefGroup = 18BDE4A6255FE555000A0170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BDE4A4255FE555000A0170 /* ClipboardRelay */,
+				18FE3B16256CB92C00659396 /* CustomClipboard */,
+				18BDE4BD255FE558000A0170 /* ClipboardRelayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BDE4A3255FE555000A0170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BDE4B8255FE557000A0170 /* LaunchScreen.storyboard in Resources */,
+				18BDE4B5255FE557000A0170 /* Assets.xcassets in Resources */,
+				18BDE4B0255FE555000A0170 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BDE4BC255FE558000A0170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE3B15256CB92C00659396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1448C638901622702F1B4742 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClipboardRelay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5AA763183CD4A7904A3249D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClipboardRelay/Pods-ClipboardRelay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClipboardRelay/Pods-ClipboardRelay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClipboardRelay/Pods-ClipboardRelay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BDE4A1255FE555000A0170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B147FF258B871000BEE28B /* ClipboardItem.swift in Sources */,
+				18BDE4B3255FE555000A0170 /* ClipboardRelay.xcdatamodeld in Sources */,
+				18BDE4AD255FE555000A0170 /* ViewController.swift in Sources */,
+				18BDE4A9255FE555000A0170 /* AppDelegate.swift in Sources */,
+				18BDE4AB255FE555000A0170 /* SceneDelegate.swift in Sources */,
+				18B147F7258B869400BEE28B /* ClipboardData.swift in Sources */,
+				18B147F0258B81C500BEE28B /* MainTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BDE4BA255FE558000A0170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BDE4C3255FE558000A0170 /* ClipboardRelayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE3B13256CB92C00659396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE3B1A256CB92C00659396 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18BDE4C0255FE558000A0170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BDE4A4255FE555000A0170 /* ClipboardRelay */;
+			targetProxy = 18BDE4BF255FE558000A0170 /* PBXContainerItemProxy */;
+		};
+		18FE3B1D256CB92C00659396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FE3B16256CB92C00659396 /* CustomClipboard */;
+			targetProxy = 18FE3B1C256CB92C00659396 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18BDE4AE255FE555000A0170 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BDE4AF255FE555000A0170 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18BDE4B6255FE557000A0170 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BDE4B7255FE557000A0170 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18BDE4D0255FE558000A0170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18BDE4D1255FE558000A0170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18BDE4D3255FE558000A0170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38CB441FBCA0F7A92AD2A7A7 /* Pods-ClipboardRelay.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ClipboardRelay/ClipboardRelay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPL4GGWSTS;
+				INFOPLIST_FILE = "ClipboardRelay/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.clipboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18BDE4D4255FE558000A0170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2390B5E2947041A66EA0A7C /* Pods-ClipboardRelay.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ClipboardRelay/ClipboardRelay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPL4GGWSTS;
+				INFOPLIST_FILE = "ClipboardRelay/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.clipboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18BDE4D6255FE558000A0170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56MY3ZN5V7;
+				INFOPLIST_FILE = ClipboardRelayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.sdk.ClipboardRelayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClipboardRelay.app/ClipboardRelay";
+			};
+			name = Debug;
+		};
+		18BDE4D7255FE558000A0170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56MY3ZN5V7;
+				INFOPLIST_FILE = ClipboardRelayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.sdk.ClipboardRelayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClipboardRelay.app/ClipboardRelay";
+			};
+			name = Release;
+		};
+		18FE3B20256CB92C00659396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPL4GGWSTS;
+				INFOPLIST_FILE = CustomClipboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.clipboard.CustomClipboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18FE3B21256CB92C00659396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPL4GGWSTS;
+				INFOPLIST_FILE = CustomClipboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.clipboard.CustomClipboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BDE4A0255FE555000A0170 /* Build configuration list for PBXProject "ClipboardRelay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BDE4D0255FE558000A0170 /* Debug */,
+				18BDE4D1255FE558000A0170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BDE4D2255FE558000A0170 /* Build configuration list for PBXNativeTarget "ClipboardRelay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BDE4D3255FE558000A0170 /* Debug */,
+				18BDE4D4255FE558000A0170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BDE4D5255FE558000A0170 /* Build configuration list for PBXNativeTarget "ClipboardRelayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BDE4D6255FE558000A0170 /* Debug */,
+				18BDE4D7255FE558000A0170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FE3B1F256CB92C00659396 /* Build configuration list for PBXNativeTarget "CustomClipboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE3B20256CB92C00659396 /* Debug */,
+				18FE3B21256CB92C00659396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18BDE4B1255FE555000A0170 /* ClipboardRelay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18BDE4B2255FE555000A0170 /* ClipboardRelay.xcdatamodel */,
+			);
+			currentVersion = 18BDE4B2255FE555000A0170 /* ClipboardRelay.xcdatamodel */;
+			path = ClipboardRelay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18BDE49D255FE555000A0170 /* Project object */;
+}
